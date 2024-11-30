@@ -123,29 +123,7 @@ transition: all .3s ease-in-out;
 .btn-flat:hover{
     background-color: #06005d;
 }
-.btn-flat span {
-position: relative;
-z-index: 1;
-}
-.btn-flat span:after{
-    content: "";
-    position: absolute;
-    top: 8px;
-    right: -3rem;
-    width: 1.2rem;
-    height: 1.2rem;
-    border-right: 3.5px solid #fff;
-    border-top: 3.5px solid #fff;
-    transform: rotate(45deg);
-}
-.btn-flat:before, .btn-flat::after{
-    position: absolute;
-    width: 150%;
-    height: 500%;
-    content: '';
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .3s ease-in-out;
-}
+
 
 
 .banner_kakuyomu{
@@ -647,7 +625,7 @@ footer{
   }
 
 .youtube {
-    width: 100%;
+    width: 80%;
     max-width: 800px;
     aspect-ratio: 16 / 9;
     display: block;
