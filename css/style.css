@@ -558,7 +558,7 @@ footer{
 }
 .novel_contents_bottom{
     height: 105vh;
-    padding-top: 240px;
+    padding: 240px 10px 0;
     background-image: url(../image/sky_bg.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -571,9 +571,6 @@ footer{
 }
 .novel_contents_bottom .btn-flat{
     background-color: var(--sky-blue);
-}
-.novel_contents_bottom .btn-flat:hover{
-    background-color: #06005d;
 }
 .appeal{
     color: #06005d;
