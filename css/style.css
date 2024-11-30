@@ -592,7 +592,7 @@ footer{
     /* 矢印を消すための追加スタイル */
     list-style: none;
     transition: all .3s ease;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #fff;
   }
   .accordion-header:hover{
@@ -663,6 +663,9 @@ footer{
         font-size: 1.2rem;
     }
     .appeal{
+        font-size: 2rem;
+    }
+    .accordion-header{
         font-size: 2rem;
     }
 }
